@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banker Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBtn = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".navbar ul");
+
+    toggleBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  });
+</script>
+
+<body>
+    <header class="header">
+    <div class=" nav-container">
+      <h1 class="logo">Banker.</h1>
+       <button class="menu-toggle">☰</button>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li class="dropdown">
+            <a href="#about" id="about">About us ▾</a>
+             <ul class="submenu">
+              <li><a href="#team">Team</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+               <li><a href="#faq">FAQ</a></li>
+               <li><a href="#gallery">Gallery</a></li>
+               <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#more">More options</a></li>
+            </ul>
+              </li>
+
+                
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- <button class="menu-toggle ">☰</button> -->
+    </div>
+    <div class="para">
+        <h1 class="Name">Banking Solution</h1>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis vel incidunt tempora impedit quaerat, pariatur sapiente a eligendi. </p>
+    </div>
+  </header>
+  <main class="main-container">
+<div class="boxes">
+    <div class="box ">
+      <div class="box-pic" style="background-image: url('financial\ managment.svg');"></div>
+        <h3>Money Saving</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis vel tempora impedit quaerat, pariatur sapiente a eligendi.</p>
+    </div>
+     <div class="box ">
+      <div class="box-pic" style="background-image: url('financial.svg');"></div>
+        <h3>Online Shopping</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis vel tempora impedit quaerat, pariatur sapiente a eligendi.</p>
+     </div>
+     
+      <div class="box ">
+        <div class="box-pic" style="background-image: url('card.svg');"></div>
+        <h3>Credit/Debit Card</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis vel tempora impedit quaerat, pariatur sapiente a eligendi.</p>
+      </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container-1">
+<div class="container-2">
+    
+</div>
+<div class="container-3">
+    <h2>Amortization Computation</h2>
+    <br>
+    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    <br>
+    <div class="checklist1">
+    <i class="fa-solid fa-check"></i>
+    <p>Officia quaerat eaque neque</p>
+    </div>
+    <div class="checklist2">
+    <i class="fa-solid fa-check"></i>
+    <p>Officia quaerat eaque neque</p></div>
+   <div class="checklist3"><i class="fa-solid fa-check"></i>
+    <p>Officia quaerat eaque neque</p></div>
+    <br>
+    <div class="mail">
+    <input class="email" type="email" placeholder="Enter your Email">
+    <button class="submit">Submit Email</button>
+    </div>
+</div>
+</div>
+
+<!-- About Us -->
+<div class="aboutus">
+    <div class="about-container">
+    <h1>About us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod enim quibusdam minima laborum sit nihil magnam officiis mollitia. Perspiciatis veritatis placeat quo perferendis quam inventore! Autem dolores eius magni modi?</p></div>
+    <div class="about-box">
+    <div class="box-1"></div>
+    <div class="box-2">
+        <h2 style="color: black;">We solve your financial problem</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  fuga, excepturi voluptatibus consequatur possimus. Animi similique voluptate quis officiis iusto voluptatum nemo aperiam autem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Laudantium veritatis , cupiditate reiciendis ipsum tenetur reprehenderit at eum autem, nisi minus!</p>
+    </div>
+    </div>
+</div>
+
+<!-- Team Members -->
+<div class="team">
+    <div class="meet-team">
+        <h1>Meet Our Team</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat recusandae at molestias expedita quam, a vel cum itaque.</p>
+    </div>
+
+
+    <div class="team-members">
+    <div class="member">
+      <div class="member1">
+        <div class="pic" style="background-image: url('member1.jpg');"></div>
+        <h3>Kaiara Spencer</h3>
+        <p>Finance Manager</p>
+      </div>
+    </div>
+
+     <div class="member"><div class="member2">
+      <div class="pic" style="background-image: url('member5.jpg');"></div>
+      <h3>Dave Simpson</h3>
+      <p>Marketing Manager</p>
+     </div>
+    </div>
+
+      <div class="member"><div class="member3">
+        <div class="pic" style="background-image: url('member3.jpg');"></div>
+        <h3>Ben Thompson</h3>
+        <p>Accountant</p>
+      </div>
+    </div>
+
+       <div class="member"><div class="member4">
+        <div class="pic" style="background-image: url('member4.jpeg');"></div>
+        <h3>Dave Simpson</h3>
+        <p>Bank Teller</p>
+       </div>
+      </div>
+
+        <div class="member"><div class="member5">
+          <div class="pic" style="background-image: url('member5.jpg');"></div>
+          <h3>Kaiara Spencer</h3>
+          <p>Accountant</p>
+        </div>
+      </div>
+
+         <div class="member"><div class="member6">
+          <div class="pic" style="background-image: url('member6.jpg');"></div>
+          <h3>Ben Thompson</h3>
+          <p>Bank Teller</p>
+         </div>
+        </div>
+
+         <div class="member"><div class="member7">
+          <div class="pic" style="background-image: url('member7.jpg');"></div>
+          <h3>Kyla Stewart</h3>
+          <p>Accountant</p>
+         </div>
+        </div>
+
+          <div class="member"><div class="member8">
+            <div class="pic" style="background-image: url('member8.jpeg');"></div>
+            <h3>Chris Stewart</h3>
+            <p>Accountant</p>
+          </div>
+        </div>
+          </div>
+</div>
+<hr>
+
+<!-- Gallery -->
+<div class="Gallery">
+  <div class="gallery-container">
+    <h1>Gallery</h1>
+    </div>
+    <div class="gallery-buttons">
+    <button class="btn1">All</button>
+     <button class="btn">Events</button>
+      <button class="btn">Party</button>
+       <button class="btn">Holiday</button>
+       </div>
+
+       <div class="allpictures">
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery1.jpg');" ></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery2.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery3.jpg');"></div>
+        </div>
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery4.jpg');" ></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery5.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery6.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery4.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery5.jpg');"></div>
+        </div>
+         <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery1.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery3.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery10.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery2.jpg');"></div>
+        </div>
+
+        <div class="gallerypictures">
+          <div class="pic" style="background-image: url('gallery6.jpg');"></div>
+        </div>
+       </div>
+      </div>
+
+      <!-- Work -->
+      <div class="work">
+        <div class="work-container">
+          <h2>How it works</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae ab voluptatum.</p>
+        </div>
+        <div class="work-section">
+        <div class="work-pic"></div>
+        <div class="work-text">
+          <h1> Online Application</h1>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nam non voluptate suscipit possimus facere explicabo, nostrum esse quasi ipsum ut aperiam veniam molestias corporis hic provident labore quo placeat?</p>
+          <br>
+          <button class="button">Learn more</button>
+        </div>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="services">
+        <div class="services-container">
+          <h1>Our Services</h1>
+        </div>
+        <div class="servicesbox">
+           <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('financial\ managment.svg');" >
+          </div>
+          <div class="text"><h3>Buisness Consulting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+
+        <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('card.svg');"></div>
+           <div class="text"><h3>Credit Card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+
+        <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('income.svg');"></div>
+           <div class="text"><h3>Buisness Monitoring</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+        <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('insurance.svg');" ></div>
+           <div class="text"><h3>Insurance  Consulting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+
+        <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('financial.svg');"></div>
+           <div class="text"><h3>Financial Investment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+
+        <div class="servicepictures">
+          <div class="s-pic" style="background-image: url('financial\ managment.svg');"></div>
+           <div class="text"><h3>Financial Managment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem quam eligendi explicabo accusamus dicta eaque at modi maxime?</p>
+          <a href="#">Learn more</a></div>
+        </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Reviews -->
+      <div class="reviews">
+        <div class="customer">
+          <h1>Happy Customer</h1>
+          <p><i>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis cum voluptatibus illum temporibus, voluptate, placeat doloribus ratione eaque enim odit veniam ab reiciendis sunt molestiae quia ut itaque eum sit!"</i></p>
+          <div class="customer-info">
+          <div class="customer-pic" style="background-image: url('member4.jpeg');"></div>
+          <p>David Thomsan</p>
+         </div>
+        </div>
+      </div>
+
+      <!-- Pricing -->
+       <div class="price">
+      <div class="pricing">
+        <h1>Pricing</h1>
+      </div>
+      <div class="deals">
+        <div class="offers">
+          <div class="offers-text">
+            <h7>Basic</h7>
+            <div class="cost">
+            <div class="amount">$45</div>
+            <div class="year">/year</div>
+            </div>
+            <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text"><del>Lorem ipsum dolor sit amet</del></p>
+            </div>
+            <button class="buynow">Buy Now</button>
+          </div>
+        </div>
+        <div class="offers-premium">
+          <div class="offers-text">
+            <h7>Premium</h7>
+            <div class="cost">
+            <div class="amount">$75</div>
+            <div class="year">/year</div>
+            </div>
+           <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text"><del>Lorem ipsum dolor sit amet</del></p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text"><del>Lorem ipsum dolor sit amet</del></p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text"><del>Lorem ipsum dolor sit amet</del></p>
+            </div>
+            <button class="buynow2">Buy Now</button>
+          </div>
+        </div>
+        <div class="offers">
+          <div class="offers-text">
+            <h7>Professional</h7>
+            <div class="cost">
+            <div class="amount">$295</div>
+            <div class="year">/year</div>
+            </div>
+           <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+             <div class="icon-text">
+            <i class="fa-solid fa-check"></i>
+            <p class="deal-text">Lorem ipsum dolor sit amet</p>
+            </div>
+            <button class="buynow">Buy Now</button>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Questions -->
+      <div class="Question-section">
+        <div class="frequentltyaskedquestion">
+        <h1>Frequently Asked Question</h1>
+        </div>
+        <div class="asked-questions">
+        <div class="question">
+          <h4>Can I accept both Paypal and Stripe?</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+         <div class="question">
+          <h4>Where are you from?</h4>
+          <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+         </div>
+          <div class="question">
+            <h4>What available is refund period?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+          </div>
+           <div class="question">
+            <h4>What available is refund period?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+           </div>
+            <div class="question">
+              <h4>Can I accept both Paypal and Stripe?</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+             <div class="question">
+               <h4>Can I accept both Paypal and Stripe?</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+             </div>
+              <div class="question"><h4>Can I accept both Paypal and Stripe?</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p></div>
+               <div class="question"><h4>Can I accept both Paypal and Stripe?</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p></div>
+                
+      </div>
+      </div>
+       </div>
+
+       <!-- loan -->
+       <div class="loans">
+        <div class="loanpic" style="background-image:url('loan.jpg') ;"></div>
+        <div class="bankloan">
+          <h4>Bank Loan</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <br>
+          <a href="#">Learn More</a>
+          <br>
+          <br>
+          <br>
+            <h4>Banking Consulation</h4>
+          <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <br>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Blog -->
+       <div class="ourblog"><h1>Our Blog</h1></div>
+       <div id="blog" class="blog">
+        
+         <div class="blog">
+        <div class="blog-content">
+          <div class="blogpic" style="background-image: url('gallery12.webp');"></div>
+          <div class="blogtext">
+            <h4><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h4>
+            <p>Ham Brook • Jan 18, 2019•<a class="news" href="#"> News</a></p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio omnis, repellendus sunt facere reiciendis corporis modi quasi voluptate, blanditiis doloribus, repudiandae adipisci iure placeat nulla dolor eius sequi ipsam.</p>
+            <br>
+             <a class="news" href="#">Continue Reading...</a>
+          </div>
+        </div>
+        <div class="blog-content">
+          <div class="blogpic" style="background-image: url('gallery6.jpg');"></div>
+          <div class="blogtext">
+          <h4><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h4>
+          <p>Ham Brook  •  Jan 18, 2019•<a class="news" href="#"> News</a></p>
+          <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio omnis, repellendus sunt facere reiciendis corporis modi quasi voluptate, blanditiis doloribus, repudiandae adipisci iure placeat nulla dolor eius sequi ipsam.</p>
+            <br>
+            <a class="news" href="#">Continue Reading...</a>
+          </div>
+        </div>
+        <div class="blog-content">
+          <div class="blogpic" style="background-image: url('gallery3.jpg');"></div>
+          <div class="blogtext">
+            <h4><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h4>
+            <p>Ham Brook • Jan 18, 2019•<a class="news" href="#"> News</a></p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio omnis, repellendus sunt facere reiciendis corporis modi quasi voluptate, blanditiis doloribus, repudiandae adipisci iure placeat nulla dolor eius sequi ipsam.</p>
+            <br>
+             <a class="news" href="#">Continue Reading...</a>
+          </div>
+        </div>
+       </div>
+       </div>
+
+
+ <!-- Contact -->
+  <div id="contact" class="contact-container">
+     <div class="contact-container">
+    <div class="contact"> 
+      <div class="contactus">
+        <h1>Contact Us</h1>
+        <div class="contactinfo">
+          <div class="contactboxes">
+          <i class="fa-solid fa-location-dot"></i>
+          <p style="color: #808080;">203 Fake St. Mountain View, San Francisco, California, USA</p>
+        </div>
+
+         <div class="contactboxes">
+          <i class="fa-solid fa-phone"></i>
+          <br>
+          <a href="#" style="color: #e79301;">+1 232 3235 324</a>
+        </div>
+
+        <div class="contactboxes">
+        <i class="fa-regular fa-envelope"></i>
+        <br>
+          <a href="#" style="color: #e79301;">banker123@gmail.com</a>
+        </div>
+ </div>
+      </div>
+      <div class="contactform">
+        <div class="formtext">Contact Form</div>
+        <div class="names">
+          <div class="formname">
+            <h4>First Name</h4>
+            <input class="input" type="text" value="">
+          </div>
+          <div class="formname">
+             <h4>Last Name</h4>
+            <input class="input" type="text" value="">
+          </div>
+        </div>
+
+        <div class="formemail">
+          <h4>Email</h4>
+          <input class="emailinput" type="email" value="">
+        </div>
+
+        <div class="Subject">
+          <h4>Subject</h4>
+          <input class="subjectinput" type="text" value="">
+        </div>
+
+        <div class="Message">
+          <h4>Message</h4>
+          <input class="messageinput" type="text" >
+        </div>
+        <button class="Send">Send Message</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+   </main>
+
+<!-- Footer -->
+ <footer>
+ <div class="footer">
+ <footer class="footer">
+  <div class="footerabout">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis error, ipsum qui laudantium minus magni nisi beatae hic in praesentium dignissimos ea sint cum aliquid nam labore alias odio!</p>
+  </div>
+
+  <div class="quicklinks">
+    <h4>Quicklinks</h4>
+    <a href="#">Terms</a>
+    <a href="#">Policy</a>
+    <a href="#">About us</a>
+    <a href="#">Services</a>
+    <a href="#">Testimonials</a>
+    <a href="#">Contact us</a>
+  </div>
+
+  <div class="followus">
+    <h4>Follow us</h4>
+    <div class="icons">
+      <a class="fb" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="ins" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="twit" href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a class="linkdin" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <div class="subscribe">
+    <h4>Subscribe Newsletter</h4>
+    <div class="subscribe-form">
+      <input class="subscribeemail" type="email" placeholder="Enter email">
+      <button class="subscribebtn">Send</button>
+    </div>
+  </div>
+</footer>
+
+ </div>
+ <div class="footer1">
+  <div class="copyright">
+    Copyright ©2025 All rights reserved | This template is made with  by <a href="#">Colorlib</a> 
+  </div>
+ </div>
+
+ </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
